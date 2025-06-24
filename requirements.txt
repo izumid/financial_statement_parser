@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+celery==5.5.2
+redis
+requests==2.32.3
+openai==1.72.0
+pydantic==2.11.3
+pydantic_core==2.33.1
