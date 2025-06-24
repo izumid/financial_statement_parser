@@ -70,7 +70,7 @@ def debug_code(message,var=None,debug=False):
 
 
 # MARK: Customize Output
-def system_data_structure(id, open_ai_output):
+def custom_structure(id, open_ai_output):
 	"""
 	Description:
 		If you need, there is a friendly output structure to java systems.
@@ -84,17 +84,18 @@ def system_data_structure(id, open_ai_output):
 	final_dictionary["idBalanco"] = id
 
 	years = []
-	for year, category in open_ai_output.items():
-		aux = {}
-		for item, info in category.items():
-			sub_lst = []
-			for k,v in info.items():
-				sub_lst.append({"descricao": k, "valor": v})
-		
-			aux[item] = sub_lst
-		years.append({"ano": year, "valores": aux})
-		
-	final_dictionary["anos"] = years
+	for output in open_ai_output:
+		for year, category in output.items():
+			aux = {}
+			for item, info in category.items():
+				sub_lst = []
+				for k,v in info.items():
+					sub_lst.append({"descricao": k, "valor": v})
+			
+				aux[item] = sub_lst
+			years.append({"ano": year, "valores": aux})
+			
+		final_dictionary["anos"] = years
 
 	return(final_dictionary)
 
@@ -184,6 +185,9 @@ def open_ia_request(base64,filename,token,gpt_version,wait_time,response_format,
 		
 		i += 1
 
+		if debug:
+			with open(os.path.join(path_result,"open_ai_output.json"), "w") as f: json.dump(open_ai_output, f, indent=4)
+
 	return(open_ai_output)
 
 # MARK: openIA Request
@@ -206,7 +210,6 @@ def api_client(id,base64,config_json,online=True):
 		open_ai_output = open_ia_request(
 			 base64 = base64
 			,filename = config_json["filename"]
-			,running_times = int(config_json["empty_rerun_times"])
 			,token = config_json["token"]
 			,gpt_version = config_json["gpt_version"]
 			,wait_time = config_json["sec_wait_between_request"]
@@ -216,7 +219,7 @@ def api_client(id,base64,config_json,online=True):
 	else:
 		with open(os.path.join(path_result,"open_ai_output.json")) as jsf: open_ai_output = json.load(jsf)
 	
-	final_dictionary = system_data_structure(id, open_ai_output)
+	final_dictionary = custom_structure(id, open_ai_output)
 	with open(os.path.join(path_result,"result.json"), "w") as f: json.dump(final_dictionary, f, indent=4)
 	debug_code(message=f"Total Request duration (sec): {(time.time() - start)}",debug=debug)
 
@@ -289,7 +292,9 @@ def debug_process(genbase,online,id):
 
 	path_result = os.path.join(os.getcwd(),"__result")
 	if not os.path.exists:  os.makedirs(path_result)
-	filename = "BP_2022.json"
+	#filename = "BALANCETE 2T2024_assinado.json"
+	filename = "DRE 2T2024_assinado.json"
+	#filename = "BP_2022.json"
 
 	with open(os.path.join(os.getcwd(),"config/config.json")) as jsonfile: config_json = json.load(jsonfile)
 	with open(os.path.join(os.getcwd(),r"_file_test",filename), 'r', encoding='utf-8') as file: base64 = json.load(file)

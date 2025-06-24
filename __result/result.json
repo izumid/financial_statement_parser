@@ -1,17 +1,17 @@
 {
-    "idBalanco": 172,
+    "idBalanco": "762",
     "anos": [
         {
-            "ano": "2022",
+            "ano": "2024",
             "valores": {
                 "ativo": [
                     {
                         "descricao": "ativo_circulante_caixa_e_bancos",
-                        "valor": "5.892"
+                        "valor": ""
                     },
                     {
                         "descricao": "aplicacoes_financeiras",
-                        "valor": "353.036"
+                        "valor": ""
                     },
                     {
                         "descricao": "ativo_circulante_disponibilidades",
@@ -19,19 +19,19 @@
                     },
                     {
                         "descricao": "ativo_circulante_duplicatas_a_receber",
-                        "valor": "65.676"
+                        "valor": ""
                     },
                     {
                         "descricao": "ativo_circulante_pddpcld",
-                        "valor": "(29.942)"
+                        "valor": ""
                     },
                     {
                         "descricao": "ativo_circulante_saldo_duplicatas_a_receber",
-                        "valor": "66.846"
+                        "valor": ""
                     },
                     {
                         "descricao": "ativo_circulante_estoques",
-                        "valor": "11.408"
+                        "valor": ""
                     },
                     {
                         "descricao": "ativo_circulante_adfornecedores",
@@ -43,23 +43,23 @@
                     },
                     {
                         "descricao": "ativo_circulante_impostos_a_recuperar",
-                        "valor": "42.911"
+                        "valor": ""
                     },
                     {
                         "descricao": "ativo_circulante_desp_exercicio_seguinte",
-                        "valor": "12.108"
+                        "valor": ""
                     },
                     {
                         "descricao": "ativo_circulante_outros_credito",
-                        "valor": "6.852"
+                        "valor": ""
                     },
                     {
                         "descricao": "nao_circulante",
-                        "valor": "615.216"
+                        "valor": ""
                     },
                     {
                         "descricao": "ativo_nao_circulante_duplicatas_a_receber",
-                        "valor": "1.170"
+                        "valor": ""
                     },
                     {
                         "descricao": "ativo_nao_circulante_adto_a_fornecedores",
@@ -67,7 +67,7 @@
                     },
                     {
                         "descricao": "ativo_nao_circulante_impostos_a_recuperar_lp",
-                        "valor": "26.409"
+                        "valor": ""
                     },
                     {
                         "descricao": "ativo_nao_circulante_credito_coligadas",
@@ -75,11 +75,11 @@
                     },
                     {
                         "descricao": "ativo_nao_circulante_depositos_judiciais",
-                        "valor": "17.269"
+                        "valor": ""
                     },
                     {
                         "descricao": "ativo_nao_circulante_outros",
-                        "valor": "23.504"
+                        "valor": ""
                     },
                     {
                         "descricao": "ativo_permanente",
@@ -87,7 +87,7 @@
                     },
                     {
                         "descricao": "ativo_nao_circulante_investimentos",
-                        "valor": "375.416"
+                        "valor": ""
                     },
                     {
                         "descricao": "ativo_nao_circulante_outros_investimentos_soc_c_parrticipacao",
@@ -99,7 +99,7 @@
                     },
                     {
                         "descricao": "ativo_nao_circulante_imobilizado",
-                        "valor": "716.241"
+                        "valor": ""
                     },
                     {
                         "descricao": "ativo_nao_circulante_depreciacao_acumulada",
@@ -111,7 +111,7 @@
                     },
                     {
                         "descricao": "ativo_nao_circulante_intangivel",
-                        "valor": "5.499"
+                        "valor": ""
                     },
                     {
                         "descricao": "ativo_nao_circulante_amortizacao_acumulada",
@@ -125,23 +125,23 @@
                 "passivo": [
                     {
                         "descricao": "circulante",
-                        "valor": "211.900"
+                        "valor": ""
                     },
                     {
                         "descricao": "passivo_circulante_emprest_e_financiamentos",
-                        "valor": "28.976"
+                        "valor": ""
                     },
                     {
                         "descricao": "passivo_circulante_outros_bancos_relevantes_derivativos_debentures",
-                        "valor": "20.905"
+                        "valor": ""
                     },
                     {
                         "descricao": "passivo_circulante_fornecedores",
-                        "valor": "97.511"
+                        "valor": ""
                     },
                     {
                         "descricao": "passivo_circulante_obrigacoes_trabalhistas_e_tributarias",
-                        "valor": "9.120"
+                        "valor": ""
                     },
                     {
                         "descricao": "passivo_circulante_provisao_ir_e_contribuicao_social",
@@ -169,7 +169,7 @@
                     },
                     {
                         "descricao": "passivo_circulante_outros_passivos_cp",
-                        "valor": "21.627"
+                        "valor": ""
                     },
                     {
                         "descricao": "passivo_nao_circulante_emprest_e_financiamentos",
@@ -177,7 +177,7 @@
                     },
                     {
                         "descricao": "passivo_nao_circulante_outros_bancos_relevantes_derivativos",
-                        "valor": "927.476"
+                        "valor": ""
                     },
                     {
                         "descricao": "passivo_nao_circulante_adto_de_clientes",
@@ -185,7 +185,7 @@
                     },
                     {
                         "descricao": "passivo_nao_circulante_fornecedores_aquisterrenos",
-                        "valor": "1.586"
+                        "valor": ""
                     },
                     {
                         "descricao": "passivo_nao_circulante_empr_coligcontrolsocios",
@@ -193,7 +193,7 @@
                     },
                     {
                         "descricao": "passivo_nao_circulante_obrigacoes_trabalh_e_tributarias_lp",
-                        "valor": "10.914"
+                        "valor": ""
                     },
                     {
                         "descricao": "passivo_nao_circulante_resultados_diferidos",
@@ -201,7 +201,7 @@
                     },
                     {
                         "descricao": "passivo_nao_circulante_outros_passivos_lp",
-                        "valor": "27.386"
+                        "valor": ""
                     },
                     {
                         "descricao": "resultado_de_exercicio_futuro",
@@ -209,7 +209,7 @@
                     },
                     {
                         "descricao": "passivo_nao_circulante_capital_social",
-                        "valor": "958.131"
+                        "valor": ""
                     },
                     {
                         "descricao": "passivo_nao_circulante_capital_a_integralizar",
@@ -217,7 +217,7 @@
                     },
                     {
                         "descricao": "passivo_nao_circulante_adiant_futaumento_capital",
-                        "valor": "99.000"
+                        "valor": ""
                     },
                     {
                         "descricao": "passivo_nao_circulante_reservas_de_lucros_acumulados",
@@ -225,7 +225,7 @@
                     },
                     {
                         "descricao": "passivo_nao_circulante_lucro_prejuizo_do_exercicio",
-                        "valor": "(60.282)"
+                        "valor": ""
                     },
                     {
                         "descricao": "passivo_nao_circulante_reservas_de_capital",
@@ -237,7 +237,7 @@
                     },
                     {
                         "descricao": "passivo_nao_circulante_ajustes_de_avaliacao_patrimonial",
-                        "valor": "33.204"
+                        "valor": ""
                     },
                     {
                         "descricao": "passivo_nao_circulante_outros",
@@ -247,23 +247,23 @@
                 "demonstracaoresultadoexercicio": [
                     {
                         "descricao": "receita_operacional_bruta",
-                        "valor": "543.472"
+                        "valor": "72303"
                     },
                     {
                         "descricao": "deducoes_de_vendas",
-                        "valor": "(112.810)"
+                        "valor": "-3662"
                     },
                     {
                         "descricao": "receita_operacional_liquida",
-                        "valor": "430.662"
+                        "valor": "68641"
                     },
                     {
                         "descricao": "custo_dos_produtos_vendidos",
-                        "valor": "(258.140)"
+                        "valor": "-63895"
                     },
                     {
                         "descricao": "depreciacao_amortizacao",
-                        "valor": "134.227"
+                        "valor": "-79"
                     },
                     {
                         "descricao": "custos_operacionais",
@@ -271,27 +271,27 @@
                     },
                     {
                         "descricao": "lucro_bruto",
-                        "valor": "172.522"
+                        "valor": "4746"
                     },
                     {
                         "descricao": "despesas_comerciais",
-                        "valor": "(60.728)"
+                        "valor": "-432"
                     },
                     {
                         "descricao": "despesas_administrativas",
-                        "valor": "(84.975)"
+                        "valor": "-4495"
                     },
                     {
                         "descricao": "outras_receitas_despesas_operacionais",
-                        "valor": "(17.565)"
+                        "valor": "0"
                     },
                     {
                         "descricao": "despesas_operacionais",
-                        "valor": "(167.552)"
+                        "valor": "-5403"
                     },
                     {
                         "descricao": "lucro_operacional",
-                        "valor": "4.970"
+                        "valor": ""
                     },
                     {
                         "descricao": "ebitda",
@@ -299,43 +299,43 @@
                     },
                     {
                         "descricao": "receitas_financeiras",
-                        "valor": "63.214"
+                        "valor": "1684"
                     },
                     {
                         "descricao": "despesas_financeiras",
-                        "valor": "(121.924)"
+                        "valor": "-103"
                     },
                     {
                         "descricao": "desp_rec_financeiras_liquidas",
-                        "valor": "(58.710)"
+                        "valor": "1580"
                     },
                     {
                         "descricao": "equivalencia_patrimonial",
-                        "valor": "(4.284)"
+                        "valor": ""
                     },
                     {
                         "descricao": "outras_receitas",
-                        "valor": ""
+                        "valor": "787"
                     },
                     {
                         "descricao": "outras_despesas",
-                        "valor": ""
+                        "valor": "0"
                     },
                     {
                         "descricao": "outras_despesas_receitas_liquidas",
-                        "valor": ""
+                        "valor": "787"
                     },
                     {
                         "descricao": "lucro_antes_i_r_e_contr_social",
-                        "valor": "(53.740)"
+                        "valor": "1711"
                     },
                     {
                         "descricao": "ir_e_contribuicao_social",
-                        "valor": "14.576"
+                        "valor": "0"
                     },
                     {
                         "descricao": "lucro_prejuizo_liquido",
-                        "valor": "(39.164)"
+                        "valor": "1711"
                     }
                 ]
             }
