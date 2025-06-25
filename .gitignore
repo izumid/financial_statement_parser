@@ -1,0 +1,21 @@
+# Ignore folders and its contents
+/bin/
+/Include/
+/Lib/
+/Scripts/
+/share/
+/-v/
+/_check/
+/venv/
+/.vscode/
+**/__pycache__/
+
+# Ignore files with extension
+.cfg
+
+# Ignore .env files (but not .env.example)
+!.env.example
+.env
+
+# Ingore specific files
+config/config.json

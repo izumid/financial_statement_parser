@@ -1,0 +1,27 @@
+version: '3.9'
+
+services:
+  redis:
+    image: redis:7
+    container_name: redis
+    ports:
+      - "6379:6379"
+
+  listener:
+    build: .
+    container_name: fastapi
+    volumes:
+      - .:/gpt_parser
+    ports:
+      - "5000:5000"
+    depends_on:
+      - redis
+
+  celery:
+    build: .
+    container_name: celery_worker
+    command: celery -A controller worker --loglevel=info
+    volumes:
+      - .:/gpt_parser
+    depends_on:
+      - redis
