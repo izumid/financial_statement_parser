@@ -10,6 +10,10 @@
 /.vscode/
 **/__pycache__/
 
+# Ignore files but not folders
+_file_test/*
+!_file_test/.gitkeep
+
 # Ignore files with extension
 .cfg
 
