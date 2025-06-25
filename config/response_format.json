@@ -8,124 +8,124 @@
             "type": "object",
             "additionalProperties": false,
             "properties": {
-                "ativo": {
+                "asset": {
                     "additionalProperties": false,
                     "properties": {
                         "ativo_circulante_caixa_e_bancos": {
                             "title": "Ativo Circulante Caixa E Bancos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "aplicacoes_financeiras": {
                             "title": "Aplicacoes Financeiras",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_disponibilidades": {
                             "title": "Ativo Circulante Disponibilidades",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_duplicatas_a_receber": {
                             "title": "Ativo Circulante Duplicatas A Receber",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_pddpcld": {
                             "title": "Ativo Circulante Pddpcld",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_saldo_duplicatas_a_receber": {
                             "title": "Ativo Circulante Saldo Duplicatas A Receber",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_estoques": {
                             "title": "Ativo Circulante Estoques",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_adfornecedores": {
                             "title": "Ativo Circulante Adfornecedores",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_empr_coligcontrsocios": {
                             "title": "Ativo Circulante Empr Coligcontrsocios",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_impostos_a_recuperar": {
                             "title": "Ativo Circulante Impostos A Recuperar",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_desp_exercicio_seguinte": {
                             "title": "Ativo Circulante Desp Exercicio Seguinte",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_outros_credito": {
                             "title": "Ativo Circulante Outros Credito",
-                            "type": "string"
+                            "type": "number"
                         },
                         "nao_circulante": {
                             "title": "Nao Circulante",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_duplicatas_a_receber": {
                             "title": "Ativo Nao Circulante Duplicatas A Receber",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_adto_a_fornecedores": {
                             "title": "Ativo Nao Circulante Adto A Fornecedores",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_impostos_a_recuperar_lp": {
                             "title": "Ativo Nao Circulante Impostos A Recuperar Lp",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_credito_coligadas": {
                             "title": "Ativo Nao Circulante Credito Coligadas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_depositos_judiciais": {
                             "title": "Ativo Nao Circulante Depositos Judiciais",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_outros": {
                             "title": "Ativo Nao Circulante Outros",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_permanente": {
                             "title": "Ativo Permanente",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_investimentos": {
                             "title": "Ativo Nao Circulante Investimentos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_outros_investimentos_soc_c_parrticipacao": {
                             "title": "Ativo Nao Circulante Outros Investimentos Soc C Parrticipacao",
-                            "type": "string"
+                            "type": "number"
                         },
-                        "ativo_nao_circulante_contrato_de_c\u00e2mbio": {
-                            "title": "Ativo Nao Circulante Contrato De C\u00e2mbio",
-                            "type": "string"
+                        "ativo_nao_circulante_contrato_de_cambio": {
+                            "title": "Ativo Nao Circulante Contrato De Cambio",
+                            "type": "number"
                         },
                         "ativo_nao_circulante_imobilizado": {
                             "title": "Ativo Nao Circulante Imobilizado",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_depreciacao_acumulada": {
                             "title": "Ativo Nao Circulante Depreciacao Acumulada",
-                            "type": "string"
+                            "type": "number"
                         },
                         "imobilizado_liquido": {
                             "title": "Imobilizado Liquido",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_intangivel": {
                             "title": "Ativo Nao Circulante Intangivel",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_amortizacao_acumulada": {
                             "title": "Ativo Nao Circulante Amortizacao Acumulada",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_intangivel_liquido": {
                             "title": "Ativo Nao Circulante Intangivel Liquido",
-                            "type": "string"
+                            "type": "number"
                         }
                     },
                     "required": [
@@ -151,7 +151,7 @@
                         "ativo_permanente",
                         "ativo_nao_circulante_investimentos",
                         "ativo_nao_circulante_outros_investimentos_soc_c_parrticipacao",
-                        "ativo_nao_circulante_contrato_de_c\u00e2mbio",
+                        "ativo_nao_circulante_contrato_de_cambio",
                         "ativo_nao_circulante_imobilizado",
                         "ativo_nao_circulante_depreciacao_acumulada",
                         "imobilizado_liquido",
@@ -159,131 +159,131 @@
                         "ativo_nao_circulante_amortizacao_acumulada",
                         "ativo_nao_circulante_intangivel_liquido"
                     ],
-                    "title": "Ativo",
+                    "title": "Asset",
                     "type": "object"
                 },
-                "passivo": {
+                "liabilities": {
                     "additionalProperties": false,
                     "properties": {
                         "circulante": {
                             "title": "Circulante",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_emprest_e_financiamentos": {
                             "title": "Passivo Circulante Emprest E Financiamentos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_outros_bancos_relevantes_derivativos_debentures": {
                             "title": "Passivo Circulante Outros Bancos Relevantes Derivativos Debentures",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_fornecedores": {
                             "title": "Passivo Circulante Fornecedores",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_obrigacoes_trabalhistas_e_tributarias": {
                             "title": "Passivo Circulante Obrigacoes Trabalhistas E Tributarias",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_provisao_ir_e_contribuicao_social": {
                             "title": "Passivo Circulante Provisao Ir E Contribuicao Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_contribuicao_social": {
                             "title": "Passivo Circulante Contribuicao Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_impostos_diferidos": {
                             "title": "Passivo Circulante Impostos Diferidos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_adiantamento_de_clientes": {
                             "title": "Passivo Circulante Adiantamento De Clientes",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_partes_relacionadascontroladascoligadassocios": {
                             "title": "Passivo Circulante Partes Relacionadascontroladascoligadassocios",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_dividendos_a_pagar": {
                             "title": "Passivo Circulante Dividendos A Pagar",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_outros_passivos_cp": {
                             "title": "Passivo Circulante Outros Passivos Cp",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_emprest_e_financiamentos": {
                             "title": "Passivo Nao Circulante Emprest E Financiamentos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_outros_bancos_relevantes_derivativos": {
                             "title": "Passivo Nao Circulante Outros Bancos Relevantes Derivativos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_adto_de_clientes": {
                             "title": "Passivo Nao Circulante Adto De Clientes",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_fornecedores_aquisterrenos": {
                             "title": "Passivo Nao Circulante Fornecedores Aquisterrenos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_empr_coligcontrolsocios": {
                             "title": "Passivo Nao Circulante Empr Coligcontrolsocios",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_obrigacoes_trabalh_e_tributarias_lp": {
                             "title": "Passivo Nao Circulante Obrigacoes Trabalh E Tributarias Lp",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_resultados_diferidos": {
                             "title": "Passivo Nao Circulante Resultados Diferidos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_outros_passivos_lp": {
                             "title": "Passivo Nao Circulante Outros Passivos Lp",
-                            "type": "string"
+                            "type": "number"
                         },
                         "resultado_de_exercicio_futuro": {
                             "title": "Resultado De Exercicio Futuro",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_capital_social": {
                             "title": "Passivo Nao Circulante Capital Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_capital_a_integralizar": {
                             "title": "Passivo Nao Circulante Capital A Integralizar",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_adiant_futaumento_capital": {
                             "title": "Passivo Nao Circulante Adiant Futaumento Capital",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_reservas_de_lucros_acumulados": {
                             "title": "Passivo Nao Circulante Reservas De Lucros Acumulados",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_lucro_prejuizo_do_exercicio": {
                             "title": "Passivo Nao Circulante Lucro Prejuizo Do Exercicio",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_reservas_de_capital": {
                             "title": "Passivo Nao Circulante Reservas De Capital",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_reservas_de_reavaliacao": {
                             "title": "Passivo Nao Circulante Reservas De Reavaliacao",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_ajustes_de_avaliacao_patrimonial": {
                             "title": "Passivo Nao Circulante Ajustes De Avaliacao Patrimonial",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_outros": {
                             "title": "Passivo Nao Circulante Outros",
-                            "type": "string"
+                            "type": "number"
                         }
                     },
                     "required": [
@@ -318,103 +318,103 @@
                         "passivo_nao_circulante_ajustes_de_avaliacao_patrimonial",
                         "passivo_nao_circulante_outros"
                     ],
-                    "title": "Passivo",
+                    "title": "Liabilities",
                     "type": "object"
                 },
-                "demonstracaoresultadoexercicio": {
+                "income_statement": {
                     "additionalProperties": false,
                     "properties": {
                         "receita_operacional_bruta": {
                             "title": "Receita Operacional Bruta",
-                            "type": "string"
+                            "type": "number"
                         },
                         "deducoes_de_vendas": {
                             "title": "Deducoes De Vendas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "receita_operacional_liquida": {
                             "title": "Receita Operacional Liquida",
-                            "type": "string"
+                            "type": "number"
                         },
                         "custo_dos_produtos_vendidos": {
                             "title": "Custo Dos Produtos Vendidos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "depreciacao_amortizacao": {
                             "title": "Depreciacao Amortizacao",
-                            "type": "string"
+                            "type": "number"
                         },
                         "custos_operacionais": {
                             "title": "Custos Operacionais",
-                            "type": "string"
+                            "type": "number"
                         },
                         "lucro_bruto": {
                             "title": "Lucro Bruto",
-                            "type": "string"
+                            "type": "number"
                         },
                         "despesas_comerciais": {
                             "title": "Despesas Comerciais",
-                            "type": "string"
+                            "type": "number"
                         },
-                        "despesas_administrativas": {
-                            "title": "Despesas Administrativas",
-                            "type": "string"
+                        "despesas_adminifloatativas": {
+                            "title": "Despesas Adminifloatativas",
+                            "type": "number"
                         },
                         "outras_receitas_despesas_operacionais": {
                             "title": "Outras Receitas Despesas Operacionais",
-                            "type": "string"
+                            "type": "number"
                         },
                         "despesas_operacionais": {
                             "title": "Despesas Operacionais",
-                            "type": "string"
+                            "type": "number"
                         },
                         "lucro_operacional": {
                             "title": "Lucro Operacional",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ebitda": {
                             "title": "Ebitda",
-                            "type": "string"
+                            "type": "number"
                         },
                         "receitas_financeiras": {
                             "title": "Receitas Financeiras",
-                            "type": "string"
+                            "type": "number"
                         },
                         "despesas_financeiras": {
                             "title": "Despesas Financeiras",
-                            "type": "string"
+                            "type": "number"
                         },
                         "desp_rec_financeiras_liquidas": {
                             "title": "Desp Rec Financeiras Liquidas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "equivalencia_patrimonial": {
                             "title": "Equivalencia Patrimonial",
-                            "type": "string"
+                            "type": "number"
                         },
                         "outras_receitas": {
                             "title": "Outras Receitas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "outras_despesas": {
                             "title": "Outras Despesas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "outras_despesas_receitas_liquidas": {
                             "title": "Outras Despesas Receitas Liquidas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "lucro_antes_i_r_e_contr_social": {
                             "title": "Lucro Antes I R E Contr Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ir_e_contribuicao_social": {
                             "title": "Ir E Contribuicao Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "lucro_prejuizo_liquido": {
                             "title": "Lucro Prejuizo Liquido",
-                            "type": "string"
+                            "type": "number"
                         }
                     },
                     "required": [
@@ -426,7 +426,7 @@
                         "custos_operacionais",
                         "lucro_bruto",
                         "despesas_comerciais",
-                        "despesas_administrativas",
+                        "despesas_adminifloatativas",
                         "outras_receitas_despesas_operacionais",
                         "despesas_operacionais",
                         "lucro_operacional",
@@ -442,14 +442,14 @@
                         "ir_e_contribuicao_social",
                         "lucro_prejuizo_liquido"
                     ],
-                    "title": "DemonstracaoResultadoExercicio",
+                    "title": "IncomeStatement",
                     "type": "object"
                 }
             },
             "required": [
-                "ativo",
-                "passivo",
-                "demonstracaoresultadoexercicio"
+                "asset",
+                "liabilities",
+                "income_statement"
             ]
         },
         "2023": {
@@ -457,124 +457,124 @@
             "type": "object",
             "additionalProperties": false,
             "properties": {
-                "ativo": {
+                "asset": {
                     "additionalProperties": false,
                     "properties": {
                         "ativo_circulante_caixa_e_bancos": {
                             "title": "Ativo Circulante Caixa E Bancos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "aplicacoes_financeiras": {
                             "title": "Aplicacoes Financeiras",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_disponibilidades": {
                             "title": "Ativo Circulante Disponibilidades",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_duplicatas_a_receber": {
                             "title": "Ativo Circulante Duplicatas A Receber",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_pddpcld": {
                             "title": "Ativo Circulante Pddpcld",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_saldo_duplicatas_a_receber": {
                             "title": "Ativo Circulante Saldo Duplicatas A Receber",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_estoques": {
                             "title": "Ativo Circulante Estoques",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_adfornecedores": {
                             "title": "Ativo Circulante Adfornecedores",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_empr_coligcontrsocios": {
                             "title": "Ativo Circulante Empr Coligcontrsocios",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_impostos_a_recuperar": {
                             "title": "Ativo Circulante Impostos A Recuperar",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_desp_exercicio_seguinte": {
                             "title": "Ativo Circulante Desp Exercicio Seguinte",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_outros_credito": {
                             "title": "Ativo Circulante Outros Credito",
-                            "type": "string"
+                            "type": "number"
                         },
                         "nao_circulante": {
                             "title": "Nao Circulante",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_duplicatas_a_receber": {
                             "title": "Ativo Nao Circulante Duplicatas A Receber",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_adto_a_fornecedores": {
                             "title": "Ativo Nao Circulante Adto A Fornecedores",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_impostos_a_recuperar_lp": {
                             "title": "Ativo Nao Circulante Impostos A Recuperar Lp",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_credito_coligadas": {
                             "title": "Ativo Nao Circulante Credito Coligadas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_depositos_judiciais": {
                             "title": "Ativo Nao Circulante Depositos Judiciais",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_outros": {
                             "title": "Ativo Nao Circulante Outros",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_permanente": {
                             "title": "Ativo Permanente",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_investimentos": {
                             "title": "Ativo Nao Circulante Investimentos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_outros_investimentos_soc_c_parrticipacao": {
                             "title": "Ativo Nao Circulante Outros Investimentos Soc C Parrticipacao",
-                            "type": "string"
+                            "type": "number"
                         },
-                        "ativo_nao_circulante_contrato_de_c\u00e2mbio": {
-                            "title": "Ativo Nao Circulante Contrato De C\u00e2mbio",
-                            "type": "string"
+                        "ativo_nao_circulante_contrato_de_cambio": {
+                            "title": "Ativo Nao Circulante Contrato De Cambio",
+                            "type": "number"
                         },
                         "ativo_nao_circulante_imobilizado": {
                             "title": "Ativo Nao Circulante Imobilizado",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_depreciacao_acumulada": {
                             "title": "Ativo Nao Circulante Depreciacao Acumulada",
-                            "type": "string"
+                            "type": "number"
                         },
                         "imobilizado_liquido": {
                             "title": "Imobilizado Liquido",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_intangivel": {
                             "title": "Ativo Nao Circulante Intangivel",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_amortizacao_acumulada": {
                             "title": "Ativo Nao Circulante Amortizacao Acumulada",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_intangivel_liquido": {
                             "title": "Ativo Nao Circulante Intangivel Liquido",
-                            "type": "string"
+                            "type": "number"
                         }
                     },
                     "required": [
@@ -600,7 +600,7 @@
                         "ativo_permanente",
                         "ativo_nao_circulante_investimentos",
                         "ativo_nao_circulante_outros_investimentos_soc_c_parrticipacao",
-                        "ativo_nao_circulante_contrato_de_c\u00e2mbio",
+                        "ativo_nao_circulante_contrato_de_cambio",
                         "ativo_nao_circulante_imobilizado",
                         "ativo_nao_circulante_depreciacao_acumulada",
                         "imobilizado_liquido",
@@ -608,131 +608,131 @@
                         "ativo_nao_circulante_amortizacao_acumulada",
                         "ativo_nao_circulante_intangivel_liquido"
                     ],
-                    "title": "Ativo",
+                    "title": "Asset",
                     "type": "object"
                 },
-                "passivo": {
+                "liabilities": {
                     "additionalProperties": false,
                     "properties": {
                         "circulante": {
                             "title": "Circulante",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_emprest_e_financiamentos": {
                             "title": "Passivo Circulante Emprest E Financiamentos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_outros_bancos_relevantes_derivativos_debentures": {
                             "title": "Passivo Circulante Outros Bancos Relevantes Derivativos Debentures",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_fornecedores": {
                             "title": "Passivo Circulante Fornecedores",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_obrigacoes_trabalhistas_e_tributarias": {
                             "title": "Passivo Circulante Obrigacoes Trabalhistas E Tributarias",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_provisao_ir_e_contribuicao_social": {
                             "title": "Passivo Circulante Provisao Ir E Contribuicao Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_contribuicao_social": {
                             "title": "Passivo Circulante Contribuicao Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_impostos_diferidos": {
                             "title": "Passivo Circulante Impostos Diferidos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_adiantamento_de_clientes": {
                             "title": "Passivo Circulante Adiantamento De Clientes",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_partes_relacionadascontroladascoligadassocios": {
                             "title": "Passivo Circulante Partes Relacionadascontroladascoligadassocios",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_dividendos_a_pagar": {
                             "title": "Passivo Circulante Dividendos A Pagar",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_outros_passivos_cp": {
                             "title": "Passivo Circulante Outros Passivos Cp",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_emprest_e_financiamentos": {
                             "title": "Passivo Nao Circulante Emprest E Financiamentos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_outros_bancos_relevantes_derivativos": {
                             "title": "Passivo Nao Circulante Outros Bancos Relevantes Derivativos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_adto_de_clientes": {
                             "title": "Passivo Nao Circulante Adto De Clientes",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_fornecedores_aquisterrenos": {
                             "title": "Passivo Nao Circulante Fornecedores Aquisterrenos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_empr_coligcontrolsocios": {
                             "title": "Passivo Nao Circulante Empr Coligcontrolsocios",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_obrigacoes_trabalh_e_tributarias_lp": {
                             "title": "Passivo Nao Circulante Obrigacoes Trabalh E Tributarias Lp",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_resultados_diferidos": {
                             "title": "Passivo Nao Circulante Resultados Diferidos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_outros_passivos_lp": {
                             "title": "Passivo Nao Circulante Outros Passivos Lp",
-                            "type": "string"
+                            "type": "number"
                         },
                         "resultado_de_exercicio_futuro": {
                             "title": "Resultado De Exercicio Futuro",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_capital_social": {
                             "title": "Passivo Nao Circulante Capital Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_capital_a_integralizar": {
                             "title": "Passivo Nao Circulante Capital A Integralizar",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_adiant_futaumento_capital": {
                             "title": "Passivo Nao Circulante Adiant Futaumento Capital",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_reservas_de_lucros_acumulados": {
                             "title": "Passivo Nao Circulante Reservas De Lucros Acumulados",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_lucro_prejuizo_do_exercicio": {
                             "title": "Passivo Nao Circulante Lucro Prejuizo Do Exercicio",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_reservas_de_capital": {
                             "title": "Passivo Nao Circulante Reservas De Capital",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_reservas_de_reavaliacao": {
                             "title": "Passivo Nao Circulante Reservas De Reavaliacao",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_ajustes_de_avaliacao_patrimonial": {
                             "title": "Passivo Nao Circulante Ajustes De Avaliacao Patrimonial",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_outros": {
                             "title": "Passivo Nao Circulante Outros",
-                            "type": "string"
+                            "type": "number"
                         }
                     },
                     "required": [
@@ -767,103 +767,103 @@
                         "passivo_nao_circulante_ajustes_de_avaliacao_patrimonial",
                         "passivo_nao_circulante_outros"
                     ],
-                    "title": "Passivo",
+                    "title": "Liabilities",
                     "type": "object"
                 },
-                "demonstracaoresultadoexercicio": {
+                "income_statement": {
                     "additionalProperties": false,
                     "properties": {
                         "receita_operacional_bruta": {
                             "title": "Receita Operacional Bruta",
-                            "type": "string"
+                            "type": "number"
                         },
                         "deducoes_de_vendas": {
                             "title": "Deducoes De Vendas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "receita_operacional_liquida": {
                             "title": "Receita Operacional Liquida",
-                            "type": "string"
+                            "type": "number"
                         },
                         "custo_dos_produtos_vendidos": {
                             "title": "Custo Dos Produtos Vendidos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "depreciacao_amortizacao": {
                             "title": "Depreciacao Amortizacao",
-                            "type": "string"
+                            "type": "number"
                         },
                         "custos_operacionais": {
                             "title": "Custos Operacionais",
-                            "type": "string"
+                            "type": "number"
                         },
                         "lucro_bruto": {
                             "title": "Lucro Bruto",
-                            "type": "string"
+                            "type": "number"
                         },
                         "despesas_comerciais": {
                             "title": "Despesas Comerciais",
-                            "type": "string"
+                            "type": "number"
                         },
-                        "despesas_administrativas": {
-                            "title": "Despesas Administrativas",
-                            "type": "string"
+                        "despesas_adminifloatativas": {
+                            "title": "Despesas Adminifloatativas",
+                            "type": "number"
                         },
                         "outras_receitas_despesas_operacionais": {
                             "title": "Outras Receitas Despesas Operacionais",
-                            "type": "string"
+                            "type": "number"
                         },
                         "despesas_operacionais": {
                             "title": "Despesas Operacionais",
-                            "type": "string"
+                            "type": "number"
                         },
                         "lucro_operacional": {
                             "title": "Lucro Operacional",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ebitda": {
                             "title": "Ebitda",
-                            "type": "string"
+                            "type": "number"
                         },
                         "receitas_financeiras": {
                             "title": "Receitas Financeiras",
-                            "type": "string"
+                            "type": "number"
                         },
                         "despesas_financeiras": {
                             "title": "Despesas Financeiras",
-                            "type": "string"
+                            "type": "number"
                         },
                         "desp_rec_financeiras_liquidas": {
                             "title": "Desp Rec Financeiras Liquidas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "equivalencia_patrimonial": {
                             "title": "Equivalencia Patrimonial",
-                            "type": "string"
+                            "type": "number"
                         },
                         "outras_receitas": {
                             "title": "Outras Receitas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "outras_despesas": {
                             "title": "Outras Despesas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "outras_despesas_receitas_liquidas": {
                             "title": "Outras Despesas Receitas Liquidas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "lucro_antes_i_r_e_contr_social": {
                             "title": "Lucro Antes I R E Contr Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ir_e_contribuicao_social": {
                             "title": "Ir E Contribuicao Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "lucro_prejuizo_liquido": {
                             "title": "Lucro Prejuizo Liquido",
-                            "type": "string"
+                            "type": "number"
                         }
                     },
                     "required": [
@@ -875,7 +875,7 @@
                         "custos_operacionais",
                         "lucro_bruto",
                         "despesas_comerciais",
-                        "despesas_administrativas",
+                        "despesas_adminifloatativas",
                         "outras_receitas_despesas_operacionais",
                         "despesas_operacionais",
                         "lucro_operacional",
@@ -891,14 +891,14 @@
                         "ir_e_contribuicao_social",
                         "lucro_prejuizo_liquido"
                     ],
-                    "title": "DemonstracaoResultadoExercicio",
+                    "title": "IncomeStatement",
                     "type": "object"
                 }
             },
             "required": [
-                "ativo",
-                "passivo",
-                "demonstracaoresultadoexercicio"
+                "asset",
+                "liabilities",
+                "income_statement"
             ]
         },
         "2024": {
@@ -906,124 +906,124 @@
             "type": "object",
             "additionalProperties": false,
             "properties": {
-                "ativo": {
+                "asset": {
                     "additionalProperties": false,
                     "properties": {
                         "ativo_circulante_caixa_e_bancos": {
                             "title": "Ativo Circulante Caixa E Bancos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "aplicacoes_financeiras": {
                             "title": "Aplicacoes Financeiras",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_disponibilidades": {
                             "title": "Ativo Circulante Disponibilidades",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_duplicatas_a_receber": {
                             "title": "Ativo Circulante Duplicatas A Receber",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_pddpcld": {
                             "title": "Ativo Circulante Pddpcld",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_saldo_duplicatas_a_receber": {
                             "title": "Ativo Circulante Saldo Duplicatas A Receber",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_estoques": {
                             "title": "Ativo Circulante Estoques",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_adfornecedores": {
                             "title": "Ativo Circulante Adfornecedores",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_empr_coligcontrsocios": {
                             "title": "Ativo Circulante Empr Coligcontrsocios",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_impostos_a_recuperar": {
                             "title": "Ativo Circulante Impostos A Recuperar",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_desp_exercicio_seguinte": {
                             "title": "Ativo Circulante Desp Exercicio Seguinte",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_outros_credito": {
                             "title": "Ativo Circulante Outros Credito",
-                            "type": "string"
+                            "type": "number"
                         },
                         "nao_circulante": {
                             "title": "Nao Circulante",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_duplicatas_a_receber": {
                             "title": "Ativo Nao Circulante Duplicatas A Receber",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_adto_a_fornecedores": {
                             "title": "Ativo Nao Circulante Adto A Fornecedores",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_impostos_a_recuperar_lp": {
                             "title": "Ativo Nao Circulante Impostos A Recuperar Lp",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_credito_coligadas": {
                             "title": "Ativo Nao Circulante Credito Coligadas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_depositos_judiciais": {
                             "title": "Ativo Nao Circulante Depositos Judiciais",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_outros": {
                             "title": "Ativo Nao Circulante Outros",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_permanente": {
                             "title": "Ativo Permanente",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_investimentos": {
                             "title": "Ativo Nao Circulante Investimentos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_outros_investimentos_soc_c_parrticipacao": {
                             "title": "Ativo Nao Circulante Outros Investimentos Soc C Parrticipacao",
-                            "type": "string"
+                            "type": "number"
                         },
-                        "ativo_nao_circulante_contrato_de_c\u00e2mbio": {
-                            "title": "Ativo Nao Circulante Contrato De C\u00e2mbio",
-                            "type": "string"
+                        "ativo_nao_circulante_contrato_de_cambio": {
+                            "title": "Ativo Nao Circulante Contrato De Cambio",
+                            "type": "number"
                         },
                         "ativo_nao_circulante_imobilizado": {
                             "title": "Ativo Nao Circulante Imobilizado",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_depreciacao_acumulada": {
                             "title": "Ativo Nao Circulante Depreciacao Acumulada",
-                            "type": "string"
+                            "type": "number"
                         },
                         "imobilizado_liquido": {
                             "title": "Imobilizado Liquido",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_intangivel": {
                             "title": "Ativo Nao Circulante Intangivel",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_amortizacao_acumulada": {
                             "title": "Ativo Nao Circulante Amortizacao Acumulada",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_intangivel_liquido": {
                             "title": "Ativo Nao Circulante Intangivel Liquido",
-                            "type": "string"
+                            "type": "number"
                         }
                     },
                     "required": [
@@ -1049,7 +1049,7 @@
                         "ativo_permanente",
                         "ativo_nao_circulante_investimentos",
                         "ativo_nao_circulante_outros_investimentos_soc_c_parrticipacao",
-                        "ativo_nao_circulante_contrato_de_c\u00e2mbio",
+                        "ativo_nao_circulante_contrato_de_cambio",
                         "ativo_nao_circulante_imobilizado",
                         "ativo_nao_circulante_depreciacao_acumulada",
                         "imobilizado_liquido",
@@ -1057,131 +1057,131 @@
                         "ativo_nao_circulante_amortizacao_acumulada",
                         "ativo_nao_circulante_intangivel_liquido"
                     ],
-                    "title": "Ativo",
+                    "title": "Asset",
                     "type": "object"
                 },
-                "passivo": {
+                "liabilities": {
                     "additionalProperties": false,
                     "properties": {
                         "circulante": {
                             "title": "Circulante",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_emprest_e_financiamentos": {
                             "title": "Passivo Circulante Emprest E Financiamentos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_outros_bancos_relevantes_derivativos_debentures": {
                             "title": "Passivo Circulante Outros Bancos Relevantes Derivativos Debentures",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_fornecedores": {
                             "title": "Passivo Circulante Fornecedores",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_obrigacoes_trabalhistas_e_tributarias": {
                             "title": "Passivo Circulante Obrigacoes Trabalhistas E Tributarias",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_provisao_ir_e_contribuicao_social": {
                             "title": "Passivo Circulante Provisao Ir E Contribuicao Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_contribuicao_social": {
                             "title": "Passivo Circulante Contribuicao Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_impostos_diferidos": {
                             "title": "Passivo Circulante Impostos Diferidos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_adiantamento_de_clientes": {
                             "title": "Passivo Circulante Adiantamento De Clientes",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_partes_relacionadascontroladascoligadassocios": {
                             "title": "Passivo Circulante Partes Relacionadascontroladascoligadassocios",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_dividendos_a_pagar": {
                             "title": "Passivo Circulante Dividendos A Pagar",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_outros_passivos_cp": {
                             "title": "Passivo Circulante Outros Passivos Cp",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_emprest_e_financiamentos": {
                             "title": "Passivo Nao Circulante Emprest E Financiamentos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_outros_bancos_relevantes_derivativos": {
                             "title": "Passivo Nao Circulante Outros Bancos Relevantes Derivativos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_adto_de_clientes": {
                             "title": "Passivo Nao Circulante Adto De Clientes",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_fornecedores_aquisterrenos": {
                             "title": "Passivo Nao Circulante Fornecedores Aquisterrenos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_empr_coligcontrolsocios": {
                             "title": "Passivo Nao Circulante Empr Coligcontrolsocios",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_obrigacoes_trabalh_e_tributarias_lp": {
                             "title": "Passivo Nao Circulante Obrigacoes Trabalh E Tributarias Lp",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_resultados_diferidos": {
                             "title": "Passivo Nao Circulante Resultados Diferidos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_outros_passivos_lp": {
                             "title": "Passivo Nao Circulante Outros Passivos Lp",
-                            "type": "string"
+                            "type": "number"
                         },
                         "resultado_de_exercicio_futuro": {
                             "title": "Resultado De Exercicio Futuro",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_capital_social": {
                             "title": "Passivo Nao Circulante Capital Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_capital_a_integralizar": {
                             "title": "Passivo Nao Circulante Capital A Integralizar",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_adiant_futaumento_capital": {
                             "title": "Passivo Nao Circulante Adiant Futaumento Capital",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_reservas_de_lucros_acumulados": {
                             "title": "Passivo Nao Circulante Reservas De Lucros Acumulados",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_lucro_prejuizo_do_exercicio": {
                             "title": "Passivo Nao Circulante Lucro Prejuizo Do Exercicio",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_reservas_de_capital": {
                             "title": "Passivo Nao Circulante Reservas De Capital",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_reservas_de_reavaliacao": {
                             "title": "Passivo Nao Circulante Reservas De Reavaliacao",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_ajustes_de_avaliacao_patrimonial": {
                             "title": "Passivo Nao Circulante Ajustes De Avaliacao Patrimonial",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_outros": {
                             "title": "Passivo Nao Circulante Outros",
-                            "type": "string"
+                            "type": "number"
                         }
                     },
                     "required": [
@@ -1216,103 +1216,103 @@
                         "passivo_nao_circulante_ajustes_de_avaliacao_patrimonial",
                         "passivo_nao_circulante_outros"
                     ],
-                    "title": "Passivo",
+                    "title": "Liabilities",
                     "type": "object"
                 },
-                "demonstracaoresultadoexercicio": {
+                "income_statement": {
                     "additionalProperties": false,
                     "properties": {
                         "receita_operacional_bruta": {
                             "title": "Receita Operacional Bruta",
-                            "type": "string"
+                            "type": "number"
                         },
                         "deducoes_de_vendas": {
                             "title": "Deducoes De Vendas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "receita_operacional_liquida": {
                             "title": "Receita Operacional Liquida",
-                            "type": "string"
+                            "type": "number"
                         },
                         "custo_dos_produtos_vendidos": {
                             "title": "Custo Dos Produtos Vendidos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "depreciacao_amortizacao": {
                             "title": "Depreciacao Amortizacao",
-                            "type": "string"
+                            "type": "number"
                         },
                         "custos_operacionais": {
                             "title": "Custos Operacionais",
-                            "type": "string"
+                            "type": "number"
                         },
                         "lucro_bruto": {
                             "title": "Lucro Bruto",
-                            "type": "string"
+                            "type": "number"
                         },
                         "despesas_comerciais": {
                             "title": "Despesas Comerciais",
-                            "type": "string"
+                            "type": "number"
                         },
-                        "despesas_administrativas": {
-                            "title": "Despesas Administrativas",
-                            "type": "string"
+                        "despesas_adminifloatativas": {
+                            "title": "Despesas Adminifloatativas",
+                            "type": "number"
                         },
                         "outras_receitas_despesas_operacionais": {
                             "title": "Outras Receitas Despesas Operacionais",
-                            "type": "string"
+                            "type": "number"
                         },
                         "despesas_operacionais": {
                             "title": "Despesas Operacionais",
-                            "type": "string"
+                            "type": "number"
                         },
                         "lucro_operacional": {
                             "title": "Lucro Operacional",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ebitda": {
                             "title": "Ebitda",
-                            "type": "string"
+                            "type": "number"
                         },
                         "receitas_financeiras": {
                             "title": "Receitas Financeiras",
-                            "type": "string"
+                            "type": "number"
                         },
                         "despesas_financeiras": {
                             "title": "Despesas Financeiras",
-                            "type": "string"
+                            "type": "number"
                         },
                         "desp_rec_financeiras_liquidas": {
                             "title": "Desp Rec Financeiras Liquidas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "equivalencia_patrimonial": {
                             "title": "Equivalencia Patrimonial",
-                            "type": "string"
+                            "type": "number"
                         },
                         "outras_receitas": {
                             "title": "Outras Receitas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "outras_despesas": {
                             "title": "Outras Despesas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "outras_despesas_receitas_liquidas": {
                             "title": "Outras Despesas Receitas Liquidas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "lucro_antes_i_r_e_contr_social": {
                             "title": "Lucro Antes I R E Contr Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ir_e_contribuicao_social": {
                             "title": "Ir E Contribuicao Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "lucro_prejuizo_liquido": {
                             "title": "Lucro Prejuizo Liquido",
-                            "type": "string"
+                            "type": "number"
                         }
                     },
                     "required": [
@@ -1324,7 +1324,7 @@
                         "custos_operacionais",
                         "lucro_bruto",
                         "despesas_comerciais",
-                        "despesas_administrativas",
+                        "despesas_adminifloatativas",
                         "outras_receitas_despesas_operacionais",
                         "despesas_operacionais",
                         "lucro_operacional",
@@ -1340,14 +1340,14 @@
                         "ir_e_contribuicao_social",
                         "lucro_prejuizo_liquido"
                     ],
-                    "title": "DemonstracaoResultadoExercicio",
+                    "title": "IncomeStatement",
                     "type": "object"
                 }
             },
             "required": [
-                "ativo",
-                "passivo",
-                "demonstracaoresultadoexercicio"
+                "asset",
+                "liabilities",
+                "income_statement"
             ]
         },
         "2025": {
@@ -1355,124 +1355,124 @@
             "type": "object",
             "additionalProperties": false,
             "properties": {
-                "ativo": {
+                "asset": {
                     "additionalProperties": false,
                     "properties": {
                         "ativo_circulante_caixa_e_bancos": {
                             "title": "Ativo Circulante Caixa E Bancos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "aplicacoes_financeiras": {
                             "title": "Aplicacoes Financeiras",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_disponibilidades": {
                             "title": "Ativo Circulante Disponibilidades",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_duplicatas_a_receber": {
                             "title": "Ativo Circulante Duplicatas A Receber",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_pddpcld": {
                             "title": "Ativo Circulante Pddpcld",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_saldo_duplicatas_a_receber": {
                             "title": "Ativo Circulante Saldo Duplicatas A Receber",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_estoques": {
                             "title": "Ativo Circulante Estoques",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_adfornecedores": {
                             "title": "Ativo Circulante Adfornecedores",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_empr_coligcontrsocios": {
                             "title": "Ativo Circulante Empr Coligcontrsocios",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_impostos_a_recuperar": {
                             "title": "Ativo Circulante Impostos A Recuperar",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_desp_exercicio_seguinte": {
                             "title": "Ativo Circulante Desp Exercicio Seguinte",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_circulante_outros_credito": {
                             "title": "Ativo Circulante Outros Credito",
-                            "type": "string"
+                            "type": "number"
                         },
                         "nao_circulante": {
                             "title": "Nao Circulante",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_duplicatas_a_receber": {
                             "title": "Ativo Nao Circulante Duplicatas A Receber",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_adto_a_fornecedores": {
                             "title": "Ativo Nao Circulante Adto A Fornecedores",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_impostos_a_recuperar_lp": {
                             "title": "Ativo Nao Circulante Impostos A Recuperar Lp",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_credito_coligadas": {
                             "title": "Ativo Nao Circulante Credito Coligadas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_depositos_judiciais": {
                             "title": "Ativo Nao Circulante Depositos Judiciais",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_outros": {
                             "title": "Ativo Nao Circulante Outros",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_permanente": {
                             "title": "Ativo Permanente",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_investimentos": {
                             "title": "Ativo Nao Circulante Investimentos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_outros_investimentos_soc_c_parrticipacao": {
                             "title": "Ativo Nao Circulante Outros Investimentos Soc C Parrticipacao",
-                            "type": "string"
+                            "type": "number"
                         },
-                        "ativo_nao_circulante_contrato_de_c\u00e2mbio": {
-                            "title": "Ativo Nao Circulante Contrato De C\u00e2mbio",
-                            "type": "string"
+                        "ativo_nao_circulante_contrato_de_cambio": {
+                            "title": "Ativo Nao Circulante Contrato De Cambio",
+                            "type": "number"
                         },
                         "ativo_nao_circulante_imobilizado": {
                             "title": "Ativo Nao Circulante Imobilizado",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_depreciacao_acumulada": {
                             "title": "Ativo Nao Circulante Depreciacao Acumulada",
-                            "type": "string"
+                            "type": "number"
                         },
                         "imobilizado_liquido": {
                             "title": "Imobilizado Liquido",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_intangivel": {
                             "title": "Ativo Nao Circulante Intangivel",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_amortizacao_acumulada": {
                             "title": "Ativo Nao Circulante Amortizacao Acumulada",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ativo_nao_circulante_intangivel_liquido": {
                             "title": "Ativo Nao Circulante Intangivel Liquido",
-                            "type": "string"
+                            "type": "number"
                         }
                     },
                     "required": [
@@ -1498,7 +1498,7 @@
                         "ativo_permanente",
                         "ativo_nao_circulante_investimentos",
                         "ativo_nao_circulante_outros_investimentos_soc_c_parrticipacao",
-                        "ativo_nao_circulante_contrato_de_c\u00e2mbio",
+                        "ativo_nao_circulante_contrato_de_cambio",
                         "ativo_nao_circulante_imobilizado",
                         "ativo_nao_circulante_depreciacao_acumulada",
                         "imobilizado_liquido",
@@ -1506,131 +1506,131 @@
                         "ativo_nao_circulante_amortizacao_acumulada",
                         "ativo_nao_circulante_intangivel_liquido"
                     ],
-                    "title": "Ativo",
+                    "title": "Asset",
                     "type": "object"
                 },
-                "passivo": {
+                "liabilities": {
                     "additionalProperties": false,
                     "properties": {
                         "circulante": {
                             "title": "Circulante",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_emprest_e_financiamentos": {
                             "title": "Passivo Circulante Emprest E Financiamentos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_outros_bancos_relevantes_derivativos_debentures": {
                             "title": "Passivo Circulante Outros Bancos Relevantes Derivativos Debentures",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_fornecedores": {
                             "title": "Passivo Circulante Fornecedores",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_obrigacoes_trabalhistas_e_tributarias": {
                             "title": "Passivo Circulante Obrigacoes Trabalhistas E Tributarias",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_provisao_ir_e_contribuicao_social": {
                             "title": "Passivo Circulante Provisao Ir E Contribuicao Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_contribuicao_social": {
                             "title": "Passivo Circulante Contribuicao Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_impostos_diferidos": {
                             "title": "Passivo Circulante Impostos Diferidos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_adiantamento_de_clientes": {
                             "title": "Passivo Circulante Adiantamento De Clientes",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_partes_relacionadascontroladascoligadassocios": {
                             "title": "Passivo Circulante Partes Relacionadascontroladascoligadassocios",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_dividendos_a_pagar": {
                             "title": "Passivo Circulante Dividendos A Pagar",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_circulante_outros_passivos_cp": {
                             "title": "Passivo Circulante Outros Passivos Cp",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_emprest_e_financiamentos": {
                             "title": "Passivo Nao Circulante Emprest E Financiamentos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_outros_bancos_relevantes_derivativos": {
                             "title": "Passivo Nao Circulante Outros Bancos Relevantes Derivativos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_adto_de_clientes": {
                             "title": "Passivo Nao Circulante Adto De Clientes",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_fornecedores_aquisterrenos": {
                             "title": "Passivo Nao Circulante Fornecedores Aquisterrenos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_empr_coligcontrolsocios": {
                             "title": "Passivo Nao Circulante Empr Coligcontrolsocios",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_obrigacoes_trabalh_e_tributarias_lp": {
                             "title": "Passivo Nao Circulante Obrigacoes Trabalh E Tributarias Lp",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_resultados_diferidos": {
                             "title": "Passivo Nao Circulante Resultados Diferidos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_outros_passivos_lp": {
                             "title": "Passivo Nao Circulante Outros Passivos Lp",
-                            "type": "string"
+                            "type": "number"
                         },
                         "resultado_de_exercicio_futuro": {
                             "title": "Resultado De Exercicio Futuro",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_capital_social": {
                             "title": "Passivo Nao Circulante Capital Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_capital_a_integralizar": {
                             "title": "Passivo Nao Circulante Capital A Integralizar",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_adiant_futaumento_capital": {
                             "title": "Passivo Nao Circulante Adiant Futaumento Capital",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_reservas_de_lucros_acumulados": {
                             "title": "Passivo Nao Circulante Reservas De Lucros Acumulados",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_lucro_prejuizo_do_exercicio": {
                             "title": "Passivo Nao Circulante Lucro Prejuizo Do Exercicio",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_reservas_de_capital": {
                             "title": "Passivo Nao Circulante Reservas De Capital",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_reservas_de_reavaliacao": {
                             "title": "Passivo Nao Circulante Reservas De Reavaliacao",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_ajustes_de_avaliacao_patrimonial": {
                             "title": "Passivo Nao Circulante Ajustes De Avaliacao Patrimonial",
-                            "type": "string"
+                            "type": "number"
                         },
                         "passivo_nao_circulante_outros": {
                             "title": "Passivo Nao Circulante Outros",
-                            "type": "string"
+                            "type": "number"
                         }
                     },
                     "required": [
@@ -1665,103 +1665,103 @@
                         "passivo_nao_circulante_ajustes_de_avaliacao_patrimonial",
                         "passivo_nao_circulante_outros"
                     ],
-                    "title": "Passivo",
+                    "title": "Liabilities",
                     "type": "object"
                 },
-                "demonstracaoresultadoexercicio": {
+                "income_statement": {
                     "additionalProperties": false,
                     "properties": {
                         "receita_operacional_bruta": {
                             "title": "Receita Operacional Bruta",
-                            "type": "string"
+                            "type": "number"
                         },
                         "deducoes_de_vendas": {
                             "title": "Deducoes De Vendas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "receita_operacional_liquida": {
                             "title": "Receita Operacional Liquida",
-                            "type": "string"
+                            "type": "number"
                         },
                         "custo_dos_produtos_vendidos": {
                             "title": "Custo Dos Produtos Vendidos",
-                            "type": "string"
+                            "type": "number"
                         },
                         "depreciacao_amortizacao": {
                             "title": "Depreciacao Amortizacao",
-                            "type": "string"
+                            "type": "number"
                         },
                         "custos_operacionais": {
                             "title": "Custos Operacionais",
-                            "type": "string"
+                            "type": "number"
                         },
                         "lucro_bruto": {
                             "title": "Lucro Bruto",
-                            "type": "string"
+                            "type": "number"
                         },
                         "despesas_comerciais": {
                             "title": "Despesas Comerciais",
-                            "type": "string"
+                            "type": "number"
                         },
-                        "despesas_administrativas": {
-                            "title": "Despesas Administrativas",
-                            "type": "string"
+                        "despesas_adminifloatativas": {
+                            "title": "Despesas Adminifloatativas",
+                            "type": "number"
                         },
                         "outras_receitas_despesas_operacionais": {
                             "title": "Outras Receitas Despesas Operacionais",
-                            "type": "string"
+                            "type": "number"
                         },
                         "despesas_operacionais": {
                             "title": "Despesas Operacionais",
-                            "type": "string"
+                            "type": "number"
                         },
                         "lucro_operacional": {
                             "title": "Lucro Operacional",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ebitda": {
                             "title": "Ebitda",
-                            "type": "string"
+                            "type": "number"
                         },
                         "receitas_financeiras": {
                             "title": "Receitas Financeiras",
-                            "type": "string"
+                            "type": "number"
                         },
                         "despesas_financeiras": {
                             "title": "Despesas Financeiras",
-                            "type": "string"
+                            "type": "number"
                         },
                         "desp_rec_financeiras_liquidas": {
                             "title": "Desp Rec Financeiras Liquidas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "equivalencia_patrimonial": {
                             "title": "Equivalencia Patrimonial",
-                            "type": "string"
+                            "type": "number"
                         },
                         "outras_receitas": {
                             "title": "Outras Receitas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "outras_despesas": {
                             "title": "Outras Despesas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "outras_despesas_receitas_liquidas": {
                             "title": "Outras Despesas Receitas Liquidas",
-                            "type": "string"
+                            "type": "number"
                         },
                         "lucro_antes_i_r_e_contr_social": {
                             "title": "Lucro Antes I R E Contr Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "ir_e_contribuicao_social": {
                             "title": "Ir E Contribuicao Social",
-                            "type": "string"
+                            "type": "number"
                         },
                         "lucro_prejuizo_liquido": {
                             "title": "Lucro Prejuizo Liquido",
-                            "type": "string"
+                            "type": "number"
                         }
                     },
                     "required": [
@@ -1773,7 +1773,7 @@
                         "custos_operacionais",
                         "lucro_bruto",
                         "despesas_comerciais",
-                        "despesas_administrativas",
+                        "despesas_adminifloatativas",
                         "outras_receitas_despesas_operacionais",
                         "despesas_operacionais",
                         "lucro_operacional",
@@ -1789,14 +1789,14 @@
                         "ir_e_contribuicao_social",
                         "lucro_prejuizo_liquido"
                     ],
-                    "title": "DemonstracaoResultadoExercicio",
+                    "title": "IncomeStatement",
                     "type": "object"
                 }
             },
             "required": [
-                "ativo",
-                "passivo",
-                "demonstracaoresultadoexercicio"
+                "asset",
+                "liabilities",
+                "income_statement"
             ]
         }
     },

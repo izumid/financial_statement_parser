@@ -10,41 +10,6 @@ import sys
 sys.path.append(os.getcwd())
 import model
 
-# MARK: Response Format
-def request_format(main_key,property,response_structure):
-	"""
-	Function to format the send structure to openIA. Due to tests, a solid structure implies in less token in addition to an more accurate responses.
-	
-	Args: 
-		main_key(list);
-		property(dict): {name_key: model.object};
-		response_strucutre(path): path to save de structure;
-
-	"""
-	name_key = property.keys()
-
-
-	dct = {
-		"title": "Beta"
-		,"type": "object"
-		,"additionalProperties": bool(0)
-		,"properties": {}
-		,"required": main_key
-	}
-
-	for x in main_key:
-		dct["properties"][x] = {
-			"title": x
-			,"type": "object"
-			,"additionalProperties": bool(0)
-			,"properties": property
-			,"required": name_key
-		}
-
-	if os.path.exists(response_structure): os.remove(response_structure)
-	time.sleep(3)
-	with open(response_structure, "w") as f: json.dump(dct, f, indent=4)
-
 
 def debug_code(message,var=None,debug=False):
 	"""
@@ -54,9 +19,8 @@ def debug_code(message,var=None,debug=False):
 	Args:
 		message(str): text to identify the code process the message are about;
 		var(any): variable values to validade;
-		debug(bool): true print's the messages
+		debug(bool): true print's the messages;
 	"""
-
 
 	if debug is True:
 		if not var is None: print(f"[Debug] {message}: {var}")
@@ -101,7 +65,7 @@ def custom_structure(id,key_name,result_set):
 
 
 # MARK: openIA Request 
-def open_ia_request(base64,token,property,filename,gpt_version,wait_time,response_format,debug):
+def open_ia_request(base64,token,response_structure,filename,gpt_version,wait_time,debug):
 	"""
 	Description:
 		Send the bs64 file to openIA API and request the parsed data based on model structure.
@@ -109,19 +73,17 @@ def open_ia_request(base64,token,property,filename,gpt_version,wait_time,respons
 	Args:
 		base64(list[[float, str]...]): [0] is the document's year, [1] is the base code;
 		token(str): token access to openAI requests;
+		response_structure(str): json structure to insure correct data format when requesting parsing from openIA API;
 		filename(str): name of file send as information in request body;
 		gpt_version(str): used different versions to control the requests costs/quality of receveid data;
-		waitime(int): seconds to wait between request openAI API has token time limits between requests;
-		response_format(json): json structure to insure correct data format when requesting parsing from openIA API;
+		wait_time(int): seconds to wait between request openAI API has token time limits between requests;
 		debug(bool): print informations of key code parts to check data behaviour;
 	"""
 
 	result_set = []
 	path_result = os.path.join(os.getcwd(),"__result")
-	response_structure = os.path.join(os.getcwd(),"config/response_format.json")
 	client = OpenAI(api_key=token)
-	year = int(datetime.now().year)
-	main_key = [str(i) for i in range(year-3,year+1,1)]
+	with open(response_structure, 'r') as jfile:  rf_schema =  json.load(jfile)
 
 	i = 0
 	for array in base64:
@@ -136,17 +98,6 @@ def open_ia_request(base64,token,property,filename,gpt_version,wait_time,respons
 				]
 			},
 		]
-
-		if not os.path.exists(response_structure):
-			request_format(main_key=main_key,property=property,response_structure=response_structure)
-		else:
-			with open(response_structure, 'r') as jfile: rf_schema =  json.load(jfile)
-			
-			if int(list(rf_schema["properties"].keys())[-1]) < year:
-				request_format(main_key=main_key,property=property,response_structure=response_structure)
-		
-
-		with open(response_structure, 'r') as jfile:  rf_schema =  json.load(jfile)
 
 		open_ai_output = client.chat.completions.create(
 			model = gpt_version,
@@ -177,6 +128,40 @@ def open_ia_request(base64,token,property,filename,gpt_version,wait_time,respons
 		
 	return(result_set)
 
+# MARK: Response Format
+def request_format(main_key,property,response_structure):
+	"""
+	Function to format the send structure to openIA. Due to tests, a solid structure implies in less token in addition to an more accurate responses.
+	
+	Args: 
+		main_key(list);
+		property(dict): {name_key: model.object};
+		response_strucutre(path): path to save de structure;
+
+	"""
+	
+	dct = {
+		"title": "Beta"
+		,"type": "object"
+		,"additionalProperties": bool(0)
+		,"properties": {}
+		,"required": main_key
+	}
+
+	for x in main_key:
+		dct["properties"][x] = {
+			"title": x
+			,"type": "object"
+			,"additionalProperties": bool(0)
+			,"properties": property
+			,"required": list(property.keys())
+		}
+
+	if os.path.exists(response_structure): os.remove(response_structure)
+	time.sleep(5)
+	with open(response_structure, "w") as f: json.dump(dct, f, indent=4)
+
+
 # MARK: openIA Request
 def api_client(id,base64,config_json,online=True):
 	"""
@@ -189,27 +174,37 @@ def api_client(id,base64,config_json,online=True):
 		online(bool): Used to controll if will be request data to openAI or a previously saved one;
 	"""
 
-	path_result = os.path.join(os.getcwd(),"__result")	
+	response_structure = os.path.join(os.getcwd(),"config/response_format.json")
+	year = int(datetime.now().year)
+	main_key = [str(i) for i in range(year-3,year+1,1)]
 	debug = config_json["debug"]
-	start = time.time()
+	path_result = os.path.join(os.getcwd(),"__result")	
 	cof = config_json["custom_output_format"]
-	
 	property = {
 		cof["k7"]: model.Asset.model_json_schema()
 		,cof["k8"]: model.Liabilities.model_json_schema()
 		,cof["k9"]: model.IncomeStatement.model_json_schema()
 	}
 
+	
+	start = time.time()
+
+	if not os.path.exists(response_structure) or config_json["response_format"]:
+		request_format(main_key=main_key,property=property,response_structure=response_structure)
+	else:
+		with open(response_structure, 'r') as jfile: rf_schema =  json.load(jfile)
+		
+		if int(list(rf_schema["properties"].keys())[-1]) < year:
+			request_format(main_key=main_key,property=property,response_structure=response_structure)
 
 	if online:
 		result_set = open_ia_request(
 			 base64 = base64
 			,token = config_json["token"]
-			,property = property
+			,response_structure = response_structure
 			,filename = config_json["filename"]
 			,gpt_version = config_json["gpt_version"]
 			,wait_time = config_json["sec_wait_between_request"]
-			,response_format = config_json["response_format"]
 			,debug = debug
 		)
 	else:

@@ -28,7 +28,7 @@ class Asset(BaseModel):
 	ativo_permanente: float
 	ativo_nao_circulante_investimentos: float
 	ativo_nao_circulante_outros_investimentos_soc_c_parrticipacao: float
-	ativo_nao_circulante_contrato_de_câmbio: float
+	ativo_nao_circulante_contrato_de_cambio: float
 	ativo_nao_circulante_imobilizado: float
 	ativo_nao_circulante_depreciacao_acumulada: float
 	imobilizado_liquido: float
